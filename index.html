@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhool Ceiling and Electric store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dhool <span>Ceiling and Electric store</span></div>
+            <ul class="nav-links">
+                <li><a href="#Aboutus">About us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger Menu -->
+        <div id="hamburger-nav">
+            <div class="logo">Dhool <span>Ceiling and Electric store</span></div>
+            <div class="hamburgermenu">
+                <div class="hamburgericon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="#aboutus" onclick="toggleMenu()">About us</a></li>
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- aboutus -->
+    <section id="aboutus">
+        <div class="h2-div">
+            <h2>Welcome to Dhool Ceiling and Electric store</h2>
+        </div>
+        <div class="about-details">
+            <div class="about-detail">
+                <h3>About us</h3>
+                <p>Dhool Ceiling & Electric Store is your go-to destination for innovative ceiling designs and
+                    expert
+                    electrical solutions. We combine creativity, precision, and quality to transform spaces into
+                    stunning works of art. With years of experience and a passion for excellence, we ensure every
+                    project reflects your unique vision and needs.</p>
+            </div>
+            <div class="about-detail">
+                <h3>What we do?</h3>
+                <ul>
+                    <li>Custom Ceiling Designs</li>
+                    <li>Best Electrical work</li>
+                    <li>Pnaflex</li>
+                    <li>Pelling</li>
+                </ul>
+            </div>
+            <div class="about-detail">
+                <h3>Why us?</h3>
+                <ul>
+                    <li>Quality Craftsmanship</li>
+                    <li>Expert Team</li>
+                    <li>Affordable Pricing</li>
+                    <li>Customer-Centric Approach</li>
+                    <li>Creative Solutions</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100064167424043&mibextid=ZbWKwL" target="_blank"
+                class="social-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://wa.me/923456870976" target="_blank" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+    <!-- Home Section -->
+    <section id="home">
+        <p> Contact us for more.</p>
+        <div class="imgs">
+            <div class="imgs-home">
+                <img src="pics/clng 1.jpg" alt="Ceiling Design ">
+            </div>
+            <div class="imgs-home">
+                <img src="pics/clng 2.jpg" alt="Ceiling Design ">
+            </div>
+            <div class="imgs-home">
+                <img src="pics/clng 3.jpg" alt="Ceiling Design ">
+            </div>
+        </div>
+        <div class="imgs">
+            <div class="imgs-home">
+                <img src="pics/clng 4.jpg" alt="Ceiling Design ">
+            </div>
+            <div class="imgs-home">
+                <img src="pics/clng 5.jpg" alt="Ceiling Design ">
+            </div>
+            <div class="imgs-home">
+                <img src="pics/clng 6.jpg" alt="Ceiling Design ">
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+
+        <h2 class="tags">Our Services</h2>
+        <div class="service-sec">
+            <div class="card">
+                <div class="servic-img">
+                    <img class="simg" src="pics/clng card.jpg">
+                </div>
+                <h3>Custom Ceiling Designs</h3>
+                <p>Tailored designs to match your aesthetic.</p>
+            </div>
+            <div class="card">
+                <div class="servic-img">
+                    <img class="simg" src="pics/wrng card.jpg">
+                </div>
+                <h3>Electric Work</h3>
+                <p>Perfect lighting setups for every room.</p>
+            </div>
+            <div class="card">
+                <div class="servic-img">
+                    <img class="simg" src="pics/pd card.jpg">
+                </div>
+                <h3>Panaflex and Pelling</h3>
+                <p>Adding depth and beauty to your designss.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="tags">Contact Us</h2>
+        <div class="contact">
+            <form action="" class="formclass">
+                <div class="formh3">
+                    <h3>Get in touch</h3>
+                </div>
+                <div>
+                    <span>
+                        <input type="text" id="name" placeholder="Your Name" required="Required">
+                    </span>
+                    <span>
+                        </br>
+                        <input type="text" id="email" placeholder="Your Email" required="Required">
+                    </span>
+                </div>
+                <br />
+                <textarea name="" id="message" placeholder="Type here.."></textarea>
+                <div class="fbtnclass">
+                    <button onclick="sendToWhatsapp()" id="formbtn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-li">
+            <ul>
+                <h3>All our services</h3>
+                <li>Ceiling</li>
+                <li>Electric Work</li>
+                <li>Panaflex</li>
+                <li>Pelling</li>
+            </ul>
+            <div class="social-icons">
+                <h3>Our Socials</h3>
+                <a href="https://www.facebook.com/profile.php?id=100064167424043&mibextid=ZbWKwL" target="_blank"
+                    class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/923456870976" target="_blank" class="social-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <p>&copy; 2024 Dhool Ceiling. All Rights Reserved.</p>
+    </footer>
+
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
